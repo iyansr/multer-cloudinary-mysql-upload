@@ -21,7 +21,7 @@ $ yarn install
 - Start Server
 
 ```bash
-$ npm start
+$ nodemon index
 ```
 
 ---
