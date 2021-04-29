@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: cloudinary
+    versions:
+    - 1.23.0
+    - 1.24.0
+    - 1.25.0
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
